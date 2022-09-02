@@ -4,7 +4,6 @@ pipeline {
 
       stage('HOLA MUNDO') {
         steps {
-          figlet 'HOLA-MUNDO'
           script {
             int[] array = [0,1,2,3] 
 		
